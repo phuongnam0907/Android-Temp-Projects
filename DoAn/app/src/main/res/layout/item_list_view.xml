@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Mã Số Sinh Viên (ID)"
+        android:textStyle="italic"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_mssv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/editshow"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        tools:text="15118888" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="15dp"
+        android:text="Nhiệt Độ"
+        android:textStyle="italic"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/txt_humid"
+        android:layout_alignStart="@+id/txt_humid"
+        android:background="@drawable/editshow"
+        android:text="30"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="22dp"
+        android:textStyle="italic"
+        android:text="Độ Ẩm"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_humid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignEnd="@+id/txt_mssv"
+        android:layout_alignRight="@+id/txt_mssv"
+        android:background="@drawable/editshow"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:text="100"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_below="@+id/textView14"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="18dp"
+        android:text="Thời gian"
+        android:textStyle="italic"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView16"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/editshow"
+        android:layout_toLeftOf="@+id/txt_humid"
+        android:layout_toStartOf="@+id/txt_humid"
+        android:text="27/03/2018"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

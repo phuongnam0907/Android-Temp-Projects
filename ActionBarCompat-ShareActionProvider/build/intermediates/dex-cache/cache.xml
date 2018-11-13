@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/namphuong97/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_753e5b49b95aef424d68cd651f982286d43c3052.jar" />
+    </item>
+    <item
+        jar="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_9a70131aeb7558940d162e1917f38385921480b5.jar" />
+    </item>
+    <item
+        jar="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="8a5380ddd58f4f8946ddade4c64dd77de4a836d5">
+        <dex dex="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-24.1.1_bf885b9cb2805bfe5393d866835c9b7540c2f3a5.jar" />
+    </item>
+    <item
+        jar="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_f2627bc9e617132fe90e25823c2bbfe68673ec30.jar" />
+    </item>
+    <item
+        jar="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.1.1_d5bf9efed52871cb0ea94e33586bae36acb2e1d8.jar" />
+    </item>
+    <item
+        jar="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_c1b5237106ea45e4a85f899e3c18abdaa02bdb65.jar" />
+    </item>
+    <item
+        jar="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_bca776d3d0577f18b8edb357707b215908dbdaae.jar" />
+    </item>
+    <item
+        jar="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/home/namphuong97/AndroidStudioProjects/ActionBarCompat-ShareActionProvider/Application/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_77942a84844e564f47852ee96620fe99ec073554.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/imageTemp"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_temperature" />
+
+    <TextView
+        android:id="@+id/textTemp"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageTemp"
+        android:gravity="center"
+        android:text="100.00*C"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/imageHum"
+        android:layout_width="38dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/textTemp"
+        android:src="@drawable/ic_humidity" />
+
+    <TextView
+        android:id="@+id/textHum"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageHum"
+        android:gravity="center"
+        android:text="100.00%"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/imageTime"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/textHum"
+        android:src="@drawable/ic_time" />
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageTime"
+        android:gravity="center"
+        android:text="time"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp" />
+    <!--<TextView-->
+        <!--android:id="@+id/ID"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_toRightOf="@+id/textTime"-->
+        <!--android:gravity="center"-->
+        <!--android:text="id"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="16dp" />-->
+
+</RelativeLayout>
